@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-image: url(bg1.png);
+        background-size: cover;
+}
+
+.logo{
+    font-size: 10rem;
+    background-image:url(bg1.png);
+    background-size: cover;
+    color: plum;
+    padding: 10rem;
+    text-align: center;
+    margin: 0;
+}
+button{
+    background-color: aqua;
+    border:none;
+    color:white;
+    padding:2rem 4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top:20rem;
+    
+}
+button:hover{
+
+    background-color: plum;
+    color:white;
+    transition: ease-out .5s;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
